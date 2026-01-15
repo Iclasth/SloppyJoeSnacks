@@ -5,8 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SloppyJoeSnacks"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Welcome to Sloppy Joe's Budget House o' Discount Sandwiches " Height="350" Width="550">
+    <Grid Margin="20px">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition/>
+            
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="item1" Text="item1"  FontSize="18"/>
+        <TextBlock x:Name="price1" HorizontalAlignment="Right"  Text="TextBlock"  FontSize="18" Grid.Column="1"/>
+        <TextBlock x:Name="item2"   Text="TextBlock"  FontSize="18" Grid.Row="1" />
+        <TextBlock x:Name="price2" HorizontalAlignment="Right"  Text="TextBlock"  FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock x:Name="item3"   Text="TextBlock" FontSize="18" Grid.Row="2"/>
+        <TextBlock x:Name="price3" HorizontalAlignment="Right"  Text="TextBlock" FontSize="18" Grid.Column="1" Grid.Row="2"/>
+        <TextBlock x:Name="item4"   Text="TextBlock"  FontSize="18" Grid.Row="3"/>
+        <TextBlock x:Name="price4" HorizontalAlignment="Right"  Text="TextBlock"  FontSize="18" Grid.Column="1" Grid.Row="3"/>
+        <TextBlock x:Name="item5"   Text="TextBlock"  FontSize="18" Grid.Row="4"/>
+        <TextBlock x:Name="price5" HorizontalAlignment="Right"  Text="TextBlock"  FontSize="18" Grid.Column="1" Grid.Row="4"/>
+        <TextBlock x:Name="item6"   Text="TextBlock"  FontSize="18" Grid.Row="5"/>
+        <TextBlock x:Name="price6" HorizontalAlignment="Right"  Text="TextBlock" FontSize="18" Grid.Column="1" Grid.Row="5"/>
+        <TextBlock x:Name="guacamole" HorizontalAlignment="Right"  VerticalAlignment="Bottom"  Text="TextBlock" FontSize="18" Grid.Row="6" Grid.ColumnSpan="2" FontFamily="Microsoft Yi Baiti"/>
 
     </Grid>
 </Window>
