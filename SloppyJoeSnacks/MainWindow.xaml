@@ -24,7 +24,7 @@
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="item1" Text="item1"  FontSize="18"/>
         <TextBlock x:Name="price1" HorizontalAlignment="Right"  Text="TextBlock"  FontSize="18" Grid.Column="1"/>
-        <TextBlock x:Name="item2"   Text="TextBlock"  FontSize="18" Grid.Row="1" />
+        <TextBlock x:Name="item2"   Text="item2"  FontSize="18" Grid.Row="1" />
         <TextBlock x:Name="price2" HorizontalAlignment="Right"  Text="TextBlock"  FontSize="18" Grid.Column="1" Grid.Row="1"/>
         <TextBlock x:Name="item3"   Text="TextBlock" FontSize="18" Grid.Row="2"/>
         <TextBlock x:Name="price3" HorizontalAlignment="Right"  Text="TextBlock" FontSize="18" Grid.Column="1" Grid.Row="2"/>
